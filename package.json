@@ -1,0 +1,29 @@
+{
+  "name": "lit-directive-custom-event-binder",
+  "version": "1.0.0",
+  "description": "Lit 2 Directive to add an event listener to an element. Used to bind events with non-standard names.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ormsbyx/lit-directive-custom-event-binder.git"
+  },
+  "keywords": [
+    "Lit",
+    "2",
+    "lit-element",
+    "Javascript",
+    "Events"
+  ],
+  "author": "Chris Ormsby <ormsbyx@pm.me> (http://rebelsanddevils.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ormsbyx/lit-directive-custom-event-binder/issues"
+  },
+  "homepage": "https://github.com/ormsbyx/lit-directive-custom-event-binder#readme",
+  "devDependencies": {
+    "lit": "2.6.1"
+  }
+}

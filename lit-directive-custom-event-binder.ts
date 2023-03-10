@@ -31,7 +31,6 @@ export class CustomEventFunctionBinder extends Directive {
     update(part: ElementPart, parameters: any[]) {
       const eventName = parameters && Array.isArray(parameters) && parameters[0];
       const callback = parameters && Array.isArray(parameters) && parameters[1];
-      console.log('binding event listener to name:', eventName, callback);
       part.element.addEventListener(eventName, callback);
         return noChange;
     }

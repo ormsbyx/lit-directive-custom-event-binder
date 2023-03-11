@@ -16,7 +16,7 @@ import { getCustomEventBinder } from "/path/to/file/ci-lit-directive-custom-even
 import { MY_FUNKY_EVENT } from "/path/to/file/my-custom-events.ts"; // value is my-funky-event
 ```
 
-Instantiate the directive at the top of your file (outside your class definition). Of course you could make it a class property too.
+Instantiate the directive near the top of your file (outside your class definition), or you could make it a class property.
 
 ```
 const myEventBinder = getCustomEventBinder();

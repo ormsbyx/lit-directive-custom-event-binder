@@ -2,7 +2,7 @@
 
 For use with the Lit web components library, version 2(+).
 
-This is Directive for the [Lit web comoponent library](https://lit.dev/). It will bind an event listener to the element that it is used on. It takes two arguments: the event name, and a function.
+This is a directive for the [Lit web comoponent library](https://lit.dev/). It will bind an event listener to the element that it is used on. It takes two arguments: the event name, and a function.
 
 This allows one to bind events with non-standard names to elements in a LitElement. The `@eventname` binding that you can use in Lit `render()` functions can not handle event-names with dashes or non alpha characters. This directive solves that problem.
 

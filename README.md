@@ -22,16 +22,16 @@ import { MY_FUNKY_EVENT } from "/path/to/file/my-custom-events.ts";
 (in your class definition, or elsewhere):
 
 ```
-     const myEventBinder = getCustomEventBinder();
+const myEventBinder = getCustomEventBinder();
 ```
 
 (in your render() method -- or some method that renders with Lit's html`` template-literal tag)
 
 ```
-    return html`
-         <div
-           class="someClass"
-           ${this.myEventBinder(MY_FUNKY_EVENT, this.handleFunkyEvent.bind(this))}
-         >Some Text</div>
-    `;
+return html`
+      <div
+        class="someClass"
+        ${this.myEventBinder(MY_FUNKY_EVENT, this.handleFunkyEvent.bind(this))}
+      >Some Text</div>
+`;
 ```
